@@ -1,0 +1,118 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.main{
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left{
+    height: 120vh;
+    width: 55%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left img{
+    height:45%;
+    width: 45%;
+}
+
+.right{
+    height: 120vh;
+    width: 45%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+#google{
+    height: 40px;
+    width:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 10px;
+    border-radius: 25px;
+    border:1px solid white;
+    margin-bottom: 10px;
+}
+
+#apple{
+    height: 40px;
+    width:300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    border: 10px;
+    border-radius: 25px;
+    border:1px solid white;
+}
+
+#google img{
+    height:20px;
+    width:20px;
+    margin-right:10px;
+}
+
+#apple img{
+    height:25px;
+    width:25px;
+    margin-right:10px;
+}
+
+.right h1{
+    font-weight:bold;
+    font-size: 70px;
+}
+
+.right h2{
+    font-weight:bold;
+    font-size: 40px;
+}
+
+#or{
+    margin:10px 0 10px 150px;
+    
+}
+#create{
+    height: 40px;
+    width:300px;
+    border-radius: 25px;
+    color: white;
+    background-color: rgb(77, 169, 255);
+    font-weight: bolder;
+}
+
+#sign{
+    height: 40px;
+    width:300px;
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    border: 10px;
+    border-radius: 25px;
+    border:1px solid rgb(73, 73, 73);
+}
+
+#terms{
+    font-size: small;
+}
+
+
+
