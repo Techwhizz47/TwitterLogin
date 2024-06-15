@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainh">
+        <div class="nav">
+            <ul>
+                <li>
+                    <img src="/images/logonr.png" alt="">
+                </li>
+                <li>
+                    <img src="/images/homen.png" alt="">
+                    <p>Home</p>
+                </li>
+                <li>
+                    <img src="/images/searchs.png" alt="">
+                    <p>Explore</p>
+                </li>
+                <li>
+                    <img src="/images/notin.png" alt="">
+                    <p>Notifications</p>
+                </li>
+                <li>
+                    <img src="/images/messn.png" alt="">
+                    <p>Messages</p>
+                </li>
+                <li>
+                    <img src="/images/grokn.png" alt="">
+                    <p>Grok</p>
+                </li>
+                <li>
+                    <img src="images/comn.png" alt="">
+                    <p>Communities</p>
+                </li>
+                <li>
+                    <img src="/images/logonr.png" alt="">
+                    <p>Premium</p>
+                </li>
+                <li>
+                    <img src="/images/profn.png" alt="">
+                    <p>Profile</p>
+                </li>
+                <li>
+                    <img src="/images/moren.png" alt="">
+                    <p>More</p>
+                </li>
+                <div style="padding: 0; border: none;">
+                    <button class="post">Post</button>
+                </div>
+                <div class="profile">
+                    <img src="/images/iconn.png" alt="">
+                    <div class="username">
+                        <!-- <p>Kubaiallan</p> -->
+                        <p id="usrnme"></p>
+                    </div>
+                    <div id="logout">...</div>
+                </div>
+            </ul>
+        </div>
+        <div class="cont">
+            <div class="contheader">
+                <div class="contl">
+                    <p>For You</p>
+                </div>
+                <div class="contr">
+                    <p>Following</p>
+                </div>
+            </div>
+            <div class="content">
+                <div class="posts">
+                    <div class="postst">
+                        <img src="/images/iconn.png" alt="">
+                        <input type="text" id="postsc" placeholder="What is happening?!">
+                    </div>
+                    <div class="postsb">
+                        <button id="postt">Post</button>
+                    </div>
+                </div>
+                <p style="margin-bottom: 400px;">Test</p>
+                <p>Test</p>
+            </div>
+        </div>
+        <div class="righth">
+            <div class="searchi">
+                <img src="/images/searchs.png" alt="">
+                <input type="text" id="search" placeholder="Search Twitter">
+            </div>
+        </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js" ></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+    <script src="/config.js"></script>
+    <script src="/home.js"></script>
+</body>
+</html>

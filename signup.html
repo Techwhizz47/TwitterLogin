@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="left">
+            <img src="/images/X_logo_2023_(white).png" alt="">
+        </div>
+        <div class="right">
+            <h1>Happening now</h1>
+            <h2>Join today.</h2>
+            <div id="google">
+                <img src="/images/google icon.png">
+                <div id="signg">Sign up with Google</div>
+            </div>
+            <div id="apple">
+                <img src="/images/apple icon.png">
+                <div id="signa">Sign up with Apple</div>
+            </div>
+            <div id="or">or</div>
+            <button id="create">Create account</button>
+            <p id="terms">By signing up, you agree to the Terms of Service and Privacy</br> Policy, including Cookie Use.</p>
+            <h3>Already have an account?</h3>
+            <button id="sign">Sign in</button>
+        </div>
+        <div id="signup">
+            <div class="signup1">
+                <div id="close">
+                    <p id="close1">X</p>
+                    <img src="/images/X_logo_2023_(white).png" alt="">
+                </div>
+                <h1>Create Account</h1>
+                <input type="text" id="name" placeholder="Enter your name">
+                <input type="text" id="email" placeholder="Enter your email">
+                <input type="password" id="password" placeholder="Enter your password">
+                <button id="signupb">Sign Up</button>
+            </div>
+        </div>
+        <div id="login">
+            <div class="login1">
+                <div id="close">
+                    <p id="close2">X</p>
+                    <img src="/images/X_logo_2023_(white).png" alt="">
+                </div>
+                <h1>Sign In</h1>
+                <input type="text" id="emaill" placeholder="Enter your email">
+                <input type="password" id="passwordl" placeholder="Enter your password">
+                <button id="loginb">Sign In</button>
+                <!-- <p id="forgot">Forgot password?</p> -->
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-app.js" ></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.0/firebase-firestore.js"></script>
+    <script src="/config.js"></script>
+    <script src="/signup.js" ></script>
+    <script src="/login.js"></script>
+</body>
+</html>
